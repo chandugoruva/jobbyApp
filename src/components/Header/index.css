@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #272727;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.li {
+  list-style-type: none;
+  margin-right: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.logout-button {
+  background-color: #6366f1;
+  font-family: 'Roboto';
+  height: 30px;
+  width: 90px;
+  border-radius: 6px;
+  border-width: 0px;
+  color: #ffffff;
+  cursor: pointer;
+}
